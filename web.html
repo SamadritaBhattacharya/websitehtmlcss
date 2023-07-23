@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Samadrita Bhattacharya">
     <title> My first site </title>
-    
+    <script>
+        function onPress(){
+            alert("Ouchh! you clicked me");
+        }
+    </script>
 </head>
 <body>
     <header> 
@@ -18,12 +22,14 @@
             Click the buttons to explore more... 
             <form>
                 
-                <input type="search" name="q" placeholder="Search query" />
-                <input type="submit" value="Go!" /><br/><hr>
-                <h3>Enter your details </h3>
-                <input type="name" name="name" placeholder="Name" /><br/>
-                <input type="email" name="email" placeholder="Email" /><br/>
-                <input type="phone" name="phone" placeholder="Number" /><br/>
+                    <input type="search" name="q" placeholder="Search query" />
+                    <!--<input type="submit" value="Go!" />-->
+                    <button onclick="onPress()">Go!</button>
+                    <br/><hr>
+                    <h3>Enter your details </h3>
+                    <input type="name" name="name" placeholder="Name" /><br/>
+                    <input type="email" name="email" placeholder="Email" /><br/>
+                    <input type="phone" name="phone" placeholder="Number" /><br/>
             </form>
             <br> 
             <h2>Some more informations</h2>
