@@ -5,7 +5,14 @@
     height: 100px;
     overflow-y: scroll;
 }
+
 .horizontal{
     writing-mode: horizontal-tb;
     width: 150px;
+}
+
+/* Adding pseudo elements */
+a:hover{
+    background-color: rgb(172, 142, 201);
+    font-weight: bold;
 }
