@@ -4,6 +4,12 @@
     width: 350px;
     height: 100px;
     overflow-y: scroll;
+    /* content: ""; */
+    /* display: block; */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 179, 201);
+    border: 1px solid black
 }
 
 .horizontal{
@@ -13,6 +19,7 @@
 
 /* Adding pseudo elements */
 a:hover{
-    background-color: rgb(172, 142, 201);
+    background-color: rgb(160, 105, 212);
     font-weight: bold;
+    
 }
