@@ -1,0 +1,11 @@
+.box{
+    inline-size: 150px;
+    border: 1px solid #333333;
+    width: 350px;
+    height: 100px;
+    overflow-y: scroll;
+}
+.horizontal{
+    writing-mode: horizontal-tb;
+    width: 150px;
+}
