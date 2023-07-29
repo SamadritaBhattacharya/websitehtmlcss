@@ -1,6 +1,6 @@
 # websitehtmlcss
 
-A simple website build in html for practising.
+A simple website build in html and css for practising.
 This is my first site.
 
 Adding more HTML and CSS features.
