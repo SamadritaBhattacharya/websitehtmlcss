@@ -28,9 +28,15 @@
                     <button onclick="onPress()">Go!</button>
                     <br/><hr>
                     <h3>Enter your details </h3>
-                    <input type="name" name="name" placeholder="Name" /><br/>
-                    <input type="email" name="email" placeholder="Email" /><br/>
-                    <input type="phone" name="phone" placeholder="Number" /><br/>
+                    <div class="details">
+                            <input type="name" name="name" placeholder="Name" /><br/>
+                            <input type="email" name="email" placeholder="Email" /><br/>
+                            <input type="phone" name="phone" placeholder="Number" /><br/>
+                            <br/>
+                            
+                            <div class="buttons"><input type="submit" value="Submit"></div>
+                </div>
+                   
             </form>
             <br> 
             <h2>Some more informations</h2>
@@ -42,9 +48,10 @@
             </p>
         </article>
     </main>
-    <div class="wrapper"><!-- Top menu--></div>
+    <div class="wrapper"><!-- Top menu --></div>
     <div class="sidebar"> 
         <div class=" box horizontal">
+            <a>
              <!-- profile, image and text-->
              <ul>
                 <li>
@@ -99,7 +106,8 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </a>
+    </div>
        
       
     </div>
