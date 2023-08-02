@@ -7,4 +7,4 @@ Adding more HTML and CSS features.
 
 Do check it out and feel free to give your feedbacks.
 
-The Menu files contains a responsive navigation menu project.
+The Menu files contains a responsive navigation menu project along with dark and light mode changing facilities.
